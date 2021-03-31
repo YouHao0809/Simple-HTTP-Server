@@ -2,7 +2,7 @@
 
 A simple http server on top of TCP protocol
 
-语言不限，实现一个简易的 Web Server，提供两个 HTTP 接口：
+实现一个简易的 Web Server，提供两个 HTTP 接口：
 
 1. POST /ping
 接受 body 参数 name，返回 200 状态码，原样输出 name
