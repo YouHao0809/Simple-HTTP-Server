@@ -18,14 +18,17 @@ A simple http server on top of TCP protocol
 实现完毕后的效果类似于：
 
 $ curl -X POST -d 'name=hello%20world' http://127.0.0.1:8000/ping
+
 Hello, hello world
 
 $ curl -X POST -d 'foo=bar&name=hello%20world' http://127.0.0.1:8000/ping
+
 Hello, hello world
 
-$ curl http://127.0.0.1:8000/now         
+$ curl http://127.0.0.1:8000/now
+
 1610085139
 
 $ curl http://127.0.0.1:8000/xxx
-Page not found
 
+Page not found
